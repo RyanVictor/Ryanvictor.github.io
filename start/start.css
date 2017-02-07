@@ -1,0 +1,54 @@
+body{
+	background-image: url(resources/images/lonely.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.LAYER2{
+	background-image: url(resources/lay.jpg);
+	height: 1200px;
+	text-align: center;
+	text-shadow: inherit;
+	font-size: 30px;
+	color: black;
+	background-size: cover;
+	border-style: solid;
+	border-color:black;
+	border-width: 2px;
+}
+.LAYER{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	border-style:solid;
+	border-width: 2px;
+	border-color:black;
+	height: 1200PX;
+
+}
+.dob{
+	color: red;
+	font-weight: bold;
+}
+.hist{
+	font-size: 20px;
+	text-align: left;
+}
+.place{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	background-color: black;
+
+}
+.list{
+	font-size: 20px;
+}
+.dislikes{
+	background-color: black;
+	font-size: 50px;
+
+}
+.histo{
+	background-color: black;
+}

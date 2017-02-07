@@ -1,0 +1,42 @@
+body{
+	background-image: url(resources/images/rocks.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.head{
+	font-size: 80px;
+	color: black;
+	font-family: aerial;
+	font-weight: bold;
+	font-effect:splintered;
+}
+#cent{
+	text-align: center;
+	padding-top:50px;
+
+}
+.hed{
+	font-size: 25px;
+	color: white;
+	font-family: times new roman;
+}
+.intro{
+	color: white;
+font-weight: bold;
+font-style: italic;
+
+}
+.trae{
+	font-size: 60px;
+	color:red;
+	font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bold;
+}
+.foot{
+	background-color: grey;
+	text-align: center;
+	color: black;
+
+}
