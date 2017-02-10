@@ -1,7 +1,7 @@
 body{
 	background-image: url(resources/images/lonely.jpg);
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	}
 
 .LAYER2{
@@ -38,17 +38,29 @@ body{
 	text-align: center;
 	color: white;
 	font-size: 50px;
-	background-color: black;
+	
 
 }
 .list{
 	font-size: 20px;
 }
 .dislikes{
-	background-color: black;
-	font-size: 50px;
+	font-size: 40px;
+	font-style: italic;
 
 }
 .histo{
-	background-color: black;
+	
+}
+.navv{
+	background-image: url(resources/images/cam.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	font-size:20px;}
+.follow{
+	color: white;
+}
+.other{
+	color: white;
 }

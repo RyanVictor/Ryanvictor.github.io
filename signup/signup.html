@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navv">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="../index.html">Ryan Victor</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li ><a href="../start/start.html">About</a></li>
+        <li><a href="#">Contact</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="container-fluid form">
+         <form action="../start/start.html" method="post">
+              <fieldset></fieldset>
+                  <label>First Name:
+                  <input type="text" name="Firstname:" placeholder="Firstname" required>
+                  </label> 
+                  <label>Last Name:
+                     <input type="text" name="LastName" placeholder="LastName" required>
+                  </label> </br>
+                  <label>email:
+                  <input type="email" name="email" placeholder="enter email" required>
+                  </label> </br>
+                  <label>password:
+                  <input type="password" name="password" placeholder="enter password" required title="Your password should be between 8 to 15 characters">
+                  </label> </br>
+                  </label> 
+                    <div>
+                        <label for="male">Male</label>
+                        <input id="male" type="radio" name="gender">
+                        <label for="female">female</label>
+                        <input id="female" type="radio" name="gender">
+                        <label for="other">other</label>
+                        <input for="other" type="radio" name="gender">
+                      </div>
+                  <div>
+                    <button class="btn btn-danger">Sign Up</button>
+                  </div>
+      
+        </div>
+</body>
+</html>
